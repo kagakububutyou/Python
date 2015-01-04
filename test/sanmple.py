@@ -1,7 +1,8 @@
 #ecoding: UTF-8
 #↑おまじない
-print "Hello!","Satou",
-print "ByeBye"
 
-print 'One','Two','Three'
-print "Four"
+print "Hello!\nByeBye"
+print "Tomato is \"very\"delicious"
+print "The browser displays an \
+error message"
+
