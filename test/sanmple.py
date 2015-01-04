@@ -1,6 +1,5 @@
 #ecoding: UTF-8
 #↑おまじない
-print """Hello!,Endou
-How are you doing?
-See you"""
 
+print "C:\My Document\node\track\test.txt"
+print r"C:\My Document\node\track\test.txt"
