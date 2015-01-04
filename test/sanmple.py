@@ -1,8 +1,7 @@
-#coding: UTF-8
-print("Hello,Python!")
-num = 10
-name = "艦これ"
-print num
-print name
-a=raw_input(' please input > ') 
-print a
+#ecoding: UTF-8
+#↑おまじない
+print "Hello!","Satou",
+print "ByeBye"
+
+print 'One','Two','Three'
+print "Four"
