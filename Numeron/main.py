@@ -1,6 +1,7 @@
 #coding: UTF-8
-
+import random
 PlayerNumber = 56513 
+EnemyNumber = 401
 
 #開始宣言
 def Numeron():
@@ -19,13 +20,18 @@ def Number(num):
 				return False 
 		if num[0] == num[1] or num[0] == num[2] or num[1] == num[2]:
 				return False
-		print num.isdigit()
 		return num.isdigit()
-
+#ランダムの違う3桁の確認		
+def Num(num):
+	if num[0] == num[1] or num[0] == num[2] or num[1] == num[2]:
+		return False
 Numeron()
 print u"違う数字を3桁入力してください"
 PlayerNumber = raw_input()
 while Number(PlayerNumber) == False:
 	print u"違う数字を3桁入力してください"
 	PlayerNumber = raw_input()
-print PlayerNumber 
+
+print u"入力された数値は" + PlayerNumber 
+hoge = random.randint(100,999)
+print hoge
